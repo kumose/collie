@@ -11,12 +11,6 @@
 *.gch
 *.pch
 
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
 # Compiled Dynamic libraries
 *.so
 *.dylib
@@ -37,5 +31,21 @@
 *.out
 *.app
 
-# debug information files
-*.dwo
+#go
+go.mod
+go.sum
+
+build
+cmake-build-debug
+.idea
+.DS_Store
+bazel-out
+bazel-*
+.clwb
+docs/xml
+.vscode
+collie/version.h
+tests/config.h
+Testing
+__pychache__
+_skbuild
